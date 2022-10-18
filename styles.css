@@ -15,19 +15,23 @@
   .h1 {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    
+
   }
 
   .item {
-    animation: reverse;
+    animation: reverse  ;
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 2s;
     background-size: 200% auto;
     color: white;
-    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 0 5px #77A1D3  ;
     border-radius: 10px;
     display: block;
   }
@@ -37,6 +41,7 @@
     text-transform: uppercase   ;
     font-style: Arial, Helvetica, sans-serif;
     border-color: black;
+    color: white;
   }
 
   .item:hover {
